@@ -24,7 +24,4 @@ Variant demonstration
 
         The platform shall support Windows
 
-
-.. needpie::
-
 .. needtable::
