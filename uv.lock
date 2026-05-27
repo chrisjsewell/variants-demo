@@ -325,7 +325,7 @@ wheels = [
 [[package]]
 name = "sphinx-needs"
 version = "8.1.1"
-source = { git = "https://github.com/useblocks/sphinx-needs?branch=master#a158906e7e96ae24907ccc870cabbd820ad61bb8" }
+source = { git = "https://github.com/useblocks/sphinx-needs?branch=master#8239a7b63da17e5134501fafbe190d81fa6a464b" }
 dependencies = [
     { name = "jsonschema-rs" },
     { name = "minijinja" },
