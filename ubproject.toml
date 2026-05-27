@@ -3,6 +3,7 @@
 server.index_on_save = true
 
 [needs.fields.arch]
+parse_variants = true
 default = "unknown"
 predicates = [
     ["var.arch == 'x86_64'", "x86_64"],

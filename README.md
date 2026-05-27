@@ -1,5 +1,9 @@
 # useblocks variant demo
 
+Available at: <https://github.com/chrisjsewell/variants-demo>
+
+Note we setup the project to run from the head versions of sphinx-needs / ubcode, which are currently unreleased (but should be soon!).
+
 ## Project setup
 
 Here we have setup a simple sphinx-needs/ubcode project to demonstrate the use of variants:
@@ -8,8 +12,6 @@ Here we have setup a simple sphinx-needs/ubcode project to demonstrate the use o
 - `variants1.json` and `variants2.json` are the two variant data files, which contain different platform and architecture information
 - `conf.py` is the standard sphinx configuration file, which also includes the `sphinx_needs` extension and configures it to read from the `ubproject.toml` file
 - `index.rst` is the main documentation file, which includes a need that uses the variant data to determine which content to include, including the new `if` directive.
-
-Note we setup the project to run from the head versions of sphinx-needs / ubcode, which are currently unreleased (but should be soon!).
 
 ## Running with sphinx
 

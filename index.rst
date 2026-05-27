@@ -3,6 +3,7 @@ Variant demonstration
 
 .. req:: Multi OS support
    :id: OSSUP1
+   :arch: <<[1 in var.other]: yes, no>>
 
    The platform shall support following OS: :need_incoming:`OSSUP1`
 
