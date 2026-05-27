@@ -1,0 +1,22 @@
+{
+  "project": "Variants Demo",
+  "current_version": "1",
+  "versions": {
+    "1": {
+      "needs": {
+        "IMP_001": {
+          "id": "IMP_001",
+          "type": "req",
+          "title": "Imported need (should pass filter)",
+          "status": "imported_active"
+        },
+        "IMP_002": {
+          "id": "IMP_002",
+          "type": "req",
+          "title": "Another imported need",
+          "status": "imported_other"
+        }
+      }
+    }
+  }
+}
