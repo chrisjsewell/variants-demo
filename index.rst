@@ -2,18 +2,15 @@ Variant demonstration
 =====================
 
 .. req:: Multi OS support
-   :id: OS1
+   :id: OSSUP1
 
-   The platform shall support following OS
-
-   .. needtable::
-      :filter: "OS1" in links_back
+   The platform shall support following OS: :need_incoming:`OSSUP1`
 
 .. if:: var.platform == "linux"
 
     .. req:: A Requirement for Linux
         :id: LINUX1
-        :links: OS1
+        :links: OSSUP1
 
         The platform shall support Linux
 
@@ -22,7 +19,7 @@ Variant demonstration
 
     .. req:: A Requirement for Windows
         :id: WINDOWS1
-        :links: OS1
+        :links: OSSUP1
 
         The platform shall support Windows
 
