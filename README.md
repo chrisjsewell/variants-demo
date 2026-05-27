@@ -16,7 +16,7 @@ Note we setup the project to run from the head versions of sphinx-needs / ubcode
 Lets first look at how we can run them via sphinx-build:
 
 ```shell
-uv run sphinx-build . _build
+uv run sphinx-build -E . _build
 ```
 
 To change the variant configiuration, without touching any files we can use the `-D` option to override the `needs_variant_data_file` configuration.
@@ -33,15 +33,21 @@ uv run sphinx-build . _build -E -D needs_variant_data_file=variants2.json
 
 ## ubc CLI features
 
+We can build a `needs.json` in the CLI.
+
 ```shell
 ubc build needs --pretty  
 ```
+
+Similar to the sphinx-build example, we can override the variant configuration on the CLI:
 
 ```shell
 ubc build needs --pretty -c "needs.variant_data_file='variants2.json'"
 ```
 
-(or use `UBCODE_CONFIG_OVERRIDE="needs.variant_data_file='variants2.json'"` as an environment variable)
+(or alternatively we can use `UBCODE_CONFIG_OVERRIDE="needs.variant_data_file='variants2.json'"` as an environment variable)
+
+To compare the output of two different variant configurations, we can use the `diff` command:
 
 ```shell
 ubc diff -c "needs.variant_data_file = 'variants2.json'"
@@ -53,4 +59,4 @@ ubc diff -c "needs.variant_data.arch = 'other'"
 
 ## More to come!
 
-...
+As discussed by Philip
