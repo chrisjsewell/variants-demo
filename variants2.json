@@ -1,4 +1,5 @@
 {
     "platform": "windows",
-    "arch": "x86_64"
+    "arch": "x86_64",
+    "nested": {"other": [4, 5, 6]}
 }
