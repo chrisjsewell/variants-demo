@@ -2,7 +2,7 @@
 
 server.index_on_save = true
 
-[needs.fields.arch]
+[needs.fields.architect]
 parse_variants = true
 default = "unknown"
 predicates = [

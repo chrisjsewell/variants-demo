@@ -1,5 +1,6 @@
 {
     "platform": "linux",
     "arch": "arm64",
-    "nested": {"other": [1, 2, 3]}
+    "nested": {"other": [1, 2, 3]},
+    "status": "imported_active"
 }

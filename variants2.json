@@ -1,5 +1,6 @@
 {
     "platform": "windows",
     "arch": "x86_64",
-    "nested": {"other": [4, 5, 6]}
+    "nested": {"other": [4, 5, 6]},
+    "status": "imported_other"
 }
